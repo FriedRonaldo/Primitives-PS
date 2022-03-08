@@ -63,7 +63,7 @@ This repository is built upon [DiffAug](https://github.com/mit-han-lab/data-effi
 ## Citation
 If you find this work useful for your research, please cite our paper:
 ```
-@InProceedings{Baek_2022_CVPR,
+@InProceedings{Baek2022Commonality,
     author    = {Baek, Kyungjune and Shim, Hyunjung},
     title     = {Commonality in Natural Images Rescues GANs: Pretraining GANs with Generic and Privacy-free Synthetic Data},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
