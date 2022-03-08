@@ -66,6 +66,20 @@ TBA
 ```
 
 ## Results
+### Generating images from the same latent vector
+![SameVector](./resrc/teaser-1.png)
+
+### GIF
+```
+TBA
+```
+
+### Low-shot generation
+```
+TBA
+```
+
+### CIFAR
 ```
 TBA
 ```
