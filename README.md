@@ -32,7 +32,7 @@ TBA
 ```
 
 __Hardware__
-* Mainly tested on V100 (32GB) and A6000 (48GB).
+* Mainly tested on Titan XP (12GB), V100 (32GB) and A6000 (48GB).
 
 ## How to Run (Quick Start)
 
