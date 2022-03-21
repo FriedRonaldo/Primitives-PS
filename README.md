@@ -63,15 +63,8 @@ __Download__
 |[Medici fountain](https://drive.google.com/file/d/1wSiRQwP8n-lsXHPDB6gF84rDT-MK0bTB/view?usp=sharing)|[Temple of heaven](https://drive.google.com/file/d/1ZvszhNMxDOBbnCHINDgjkHOzRSNkPZH8/view?usp=sharing)|[Wuzhen](https://drive.google.com/file/d/1SreZ6LUyAbhC3FDrXEKfSsk4NpaXZusg/view?usp=sharing)|[Buildings](https://drive.google.com/file/d/1qGhDrheJXW74hS1jU4M3o8bg48T4KJHj/view?usp=sharing)|
 | | | | |
 
-
-```
-TBA (Directory tree)
-```
-
 ## Synthetic Datasets
-```
-TBA
-```
+![image](https://user-images.githubusercontent.com/23406491/159198716-2bf85f92-10d7-4710-ad5d-85da4a2c1893.png)
 
 ## Results
 ### Generating images from the same latent vector
