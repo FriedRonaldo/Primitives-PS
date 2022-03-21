@@ -71,9 +71,10 @@ __Download__
 ![SameVector](./resrc/teaser-1.png)
 
 ### GIF
-```
-TBA
-```
+Because of the limitation on the file size, the model dose not fully converge (total 400K but .gif contains 120K iterations).
+
+![gif_1](./resrc/PrimitivesPS_to_panda.gif) 
+![gif_2](./resrc/PrimitivesPS_to_sigh.gif)
 
 ### Low-shot generation
 ```
@@ -81,9 +82,10 @@ TBA
 ```
 
 ### CIFAR
-```
-TBA
-```
+![samples0](https://user-images.githubusercontent.com/23406491/159199043-d047d61b-22f6-4262-b034-e8a6cd5cfbaa.jpg)
+
+![interpZ0](https://user-images.githubusercontent.com/23406491/159199058-126ff706-3e25-4726-a1f7-906817e9227f.jpg)
+
 
 ## Note
 This repository is built upon [DiffAug](https://github.com/mit-han-lab/data-efficient-gans).
