@@ -74,7 +74,6 @@ __Download__
 Because of the limitation on the file size, the model dose not fully converge (total 400K but .gif contains 120K iterations).
 
 ![gif_1](./resrc/PrimitivesPS_to_panda.gif) 
-![gif_2](./resrc/PrimitivesPS_to_sigh.gif)
 
 ### Low-shot generation
 ```
