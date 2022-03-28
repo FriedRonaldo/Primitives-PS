@@ -1,0 +1,5 @@
+CUDA_VISIBLE_DEVICES=3 python train.py --outdir=DiffAugFox2 --data=../data/afhq_fox_25.zip --gpus=1 --kimg 400
+CUDA_VISIBLE_DEVICES=2 python train.py --outdir=Leaf2Obama0 --gpus=1 --data ../data/obama_10.zip --kimg 400 --resume Leaf
+CUDA_VISIBLE_DEVICES=0 python train.py --outdir=PinkNSal2Obama100 --gpus=1 --data ../data/obama/100.zip --kimg 400 --resume PinkNSal
+CUDA_VISIBLE_DEVICES=2 python calc_metrics.py --data ../data/grumpy_cat/100.zip --network ./results/Leaf2Grumpy50/00000-50-low_shot-kimg400-color-translation-cutout-resumeLeaf/network-snapshot-000400.pkl
+CUDA_VISIBLE_DEVICES=0 python train.py --outdir=PinkLeaf2Obama100 --gpus=1 --data ../data/obama/100.zip --kimg 400 --resume PinkLeaf
