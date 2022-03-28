@@ -22,9 +22,8 @@ nvidia-docker run -it --entrypoint /bin/bash --shm-size 96g --name $DOCKER_CONTA
 ```
 
 __Dataset__
-```
-TBA
-```
+
+The low-shot datasets are from [DiffAug](https://github.com/mit-han-lab/data-efficient-gans) repository.
 
 __Pretrained checkpoint__
 
