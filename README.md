@@ -74,9 +74,7 @@ Because of the limitation on the file size, the model dose not fully converge (t
 ![gif_1](./resrc/PrimitivesPS_to_panda.gif) 
 
 ### Low-shot generation
-```
-TBA
-```
+![low-shot](./resrc/primitives-ps-low-shot.png)
 
 ### CIFAR
 ![samples0](https://user-images.githubusercontent.com/23406491/159199043-d047d61b-22f6-4262-b034-e8a6cd5cfbaa.jpg)
