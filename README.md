@@ -27,9 +27,8 @@ TBA
 ```
 
 __Pretrained checkpoint__
-```
-TBA
-```
+
+Please download the source model (pretrained model) [below](#pretrained-model).
 
 __Hardware__
 * Mainly tested on Titan XP (12GB), V100 (32GB) and A6000 (48GB).
