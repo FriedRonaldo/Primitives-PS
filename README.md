@@ -19,7 +19,11 @@ For the easy construction of environment, please use the docker image.
 * Replace $DOCKER_CONTAINER_NAME, $LOCAL_MAPPING_DIRECTORY, and $DOCKER_MAPPING_DIRECTORY to your own name and directories.
 ```
 nvidia-docker run -it --entrypoint /bin/bash --shm-size 96g --name $DOCKER_CONTAINER_NAME -v $LOCAL_MAPPING_DIRECTORY:$DOCKER_MAPPING_DIRECTORY bkjbkj12/stylegan2_ada-pytorch1.8:1.0
+
+nvidia-docker start $DOCKER_CONTAINER_NAME
+nvidia-docker exec -it $DOCKER_CONTAINER_NAME bash
 ```
+Then, go to the directory containing the source code
 
 __Dataset__
 
@@ -36,12 +40,13 @@ __Hardware__
 
 __Pretraining__
 ```
-TBA
+CUDA_VISIBLE_DEVICES=$GPU_NUMBER python train.py --outdir=$OUTPUT_DIR --data=./data/noise.zip --gpus=1
 ```
 
 __Finetuning__
+Change or locate the pre-trained ckpt file into the directory specified at the [code](https://github.com/FriedRonaldo/Primitives-PS/blob/main/finetune/train.py#L345).
 ```
-TBA
+CUDA_VISIBLE_DEVICES=$GPU_NUMBER python train.py --outdir=$OUTPUT_DIR --gpus=1 --data $DATA_DIR --kimg 400 --resume $CKPT_NAME_TO_RESUME
 ```
 
 __Examples__
