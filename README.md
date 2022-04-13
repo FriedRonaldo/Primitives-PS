@@ -39,19 +39,24 @@ __Hardware__
 ## How to Run (Quick Start)
 
 __Pretraining__
+To change the type of the pretraining dataset, comment out ant in these lines: [lines](https://github.com/FriedRonaldo/Primitives-PS/blob/main/pretrain/noise_dataset.py#L227).
 ```
 CUDA_VISIBLE_DEVICES=$GPU_NUMBER python train.py --outdir=$OUTPUT_DIR --data=./data/noise.zip --gpus=1
 ```
 
 __Finetuning__
-Change or locate the pre-trained ckpt file into the directory specified at the [code](https://github.com/FriedRonaldo/Primitives-PS/blob/main/finetune/train.py#L345).
+Change or locate the pretrained pkl file into the directory specified at the [code](https://github.com/FriedRonaldo/Primitives-PS/blob/main/finetune/train.py#L345).
 ```
-CUDA_VISIBLE_DEVICES=$GPU_NUMBER python train.py --outdir=$OUTPUT_DIR --gpus=1 --data $DATA_DIR --kimg 400 --resume $CKPT_NAME_TO_RESUME
+CUDA_VISIBLE_DEVICES=$GPU_NUMBER python train.py --outdir=$OUTPUT_DIR --gpus=1 --data $DATA_DIR --kimg 400 --resume $PKL_NAME_TO_RESUME
 ```
 
 __Examples__
 ```
-TBA
+Pretraining:
+CUDA_VISIBLE_DEVICES=0 python train.py --outdir=Primitives-PS-Pretraining --data=./data/noise.zip --gpus=1
+
+Finetuning:
+CUDA_VISIBLE_DEVICES=0 python train.py --outdir=Primitives-PS-to-Obama --gpus=1 --data ../data/obama.zip --kimg 400 --resume Primitives-PS
 ```
 
 ## Pretrained Model
