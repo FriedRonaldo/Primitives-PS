@@ -343,11 +343,10 @@ def setup_training_loop_kwargs(
     # Transfer learning: resume, freezed
     # ----------------------------------
     resume_specs = {
-        'Leaf': '../pre-trained/Leaf.pkl',
-        'Pink0': '../pre-trained/Pink0.pkl',
-        'PinkNLeaf': '../pre-trained/PinkNLeaf.pkl',
-        'PinkNSal': '../pre-trained/PinkNSal.pkl',
-        'PinkLeaf': '../pre-trained/PinkLeaf.pkl'
+        'PinkNoise': '../pre-trained/PinkNoise.pkl',
+        'Primitives': '../pre-trained/Primitives.pkl',
+        'Primitives-S': '../pre-trained/Primitives-S.pkl',
+        'Primitives-PS': '../pre-trained/Primitives-PS.pkl'
     }
 
     assert resume is None or isinstance(resume, str)
