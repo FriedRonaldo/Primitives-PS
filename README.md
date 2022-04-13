@@ -40,6 +40,8 @@ __Hardware__
 
 __Pretraining__
 To change the type of the pretraining dataset, comment out ant in these lines: [lines](https://github.com/FriedRonaldo/Primitives-PS/blob/main/pretrain/noise_dataset.py#L227).
+
+The file "noise.zip" is not required. (Just running the script will work well.)
 ```
 CUDA_VISIBLE_DEVICES=$GPU_NUMBER python train.py --outdir=$OUTPUT_DIR --data=./data/noise.zip --gpus=1
 ```
