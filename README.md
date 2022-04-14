@@ -1,6 +1,6 @@
 ## Commonality in Natural Images Rescues GANs: Pretraining GANs with Generic and Privacy-free Synthetic Data<br/>(CVPR 2022)
 ![teaser2](./resrc/teaser-2.png)
-> **_Potentials of primitive shapes for representing things.We only use a line, ellipse, and rectangle to express a cat and atemple. These examples motivate us to develop Primitives,which generates the data by a simple composition of the shapes._**
+> **_Potentials of primitive shapes for representing things. We only use a line, ellipse, and rectangle to express a cat and atemple. These examples motivate us to develop Primitives,which generates the data by a simple composition of the shapes._**
 
 __Official pytorch implementation of "Commonality in Natural Images Rescues GANs: Pretraining GANs with Generic and Privacy-free Synthetic Data"__
 
