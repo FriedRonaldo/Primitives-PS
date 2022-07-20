@@ -22,6 +22,9 @@ nvidia-docker run -it --entrypoint /bin/bash --shm-size 96g --name $DOCKER_CONTA
 
 nvidia-docker start $DOCKER_CONTAINER_NAME
 nvidia-docker exec -it $DOCKER_CONTAINER_NAME bash
+
+The image is built upon nvidia/cuda:10.0-cudnn7-devel-ubuntu18.04.
+
 ```
 Then, go to the directory containing the source code
 
