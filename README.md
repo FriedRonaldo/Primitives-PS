@@ -66,14 +66,14 @@ CUDA_VISIBLE_DEVICES=0 python train.py --outdir=Primitives-PS-to-Obama --gpus=1 
 
 ## Pretrained Model
 __Download__
-
-[Google Drive](https://drive.google.com/drive/folders/1C7EEJxYNBw8eFWie9nKuYGU8Z28c7cEo?usp=sharing)
+[OneDrive](https://1drv.ms/u/s!AprVWp5MreFV7TgjRxvICUabNBrL?e=sUQZeJ)
+* Links of google drive are deprecated.
 
 | | | | |
 |-------------|------------|--|--|
-|[PinkNoise](https://drive.google.com/file/d/1R47zY0mRfv_rsN5zrvLi2P6EFZf22qwT/view?usp=sharing)|[Primitives](https://drive.google.com/file/d/13AIZ-h7bS49JjGA8Ljuh3PuVs58bf0Zq/view?usp=sharing)|[Primitives-S](https://drive.google.com/file/d/1SplbztS3MP2Ma3FjcHZOAvbPW1ZbrE9s/view?usp=sharing)|[Primitives-PS](https://drive.google.com/file/d/1ZNhJdN1z2sBpKo07gCZ1LWSkHPI8xglv/view?usp=sharing)|
-|[Obama](https://drive.google.com/file/d/19Aurov5TG3psPd4a7ieCEC5Lx_y_RRel/view?usp=sharing)|[Grumpy Cat](https://drive.google.com/file/d/1RjziAdoc4JtZnvqm7ZFokCcLboXTVQZ9/view?usp=sharing)|[Panda](https://drive.google.com/file/d/1U-Mf_ZN5dFNxlqoblGARY7YcFzYlcEfe/view?usp=sharing)|[Bridge of Sigh](https://drive.google.com/file/d/1km--7aVGm65NlSjC1avzc5wRdEGlBz3t/view?usp=sharing)|
-|[Medici fountain](https://drive.google.com/file/d/1wSiRQwP8n-lsXHPDB6gF84rDT-MK0bTB/view?usp=sharing)|[Temple of heaven](https://drive.google.com/file/d/1ZvszhNMxDOBbnCHINDgjkHOzRSNkPZH8/view?usp=sharing)|[Wuzhen](https://drive.google.com/file/d/1SreZ6LUyAbhC3FDrXEKfSsk4NpaXZusg/view?usp=sharing)|[Buildings](https://drive.google.com/file/d/1qGhDrheJXW74hS1jU4M3o8bg48T4KJHj/view?usp=sharing)|
+|[PinkNoise](https://1drv.ms/u/s!AprVWp5MreFV7nXqfegqzSQRHmlu?e=2fszsT)|[Primitives](https://1drv.ms/u/s!AprVWp5MreFV7nHPjeB3RSlIdIoC?e=jUsMUe)|[Primitives-S](https://1drv.ms/u/s!AprVWp5MreFV8A-DXVj3tbS6rxMD?e=EagYn7)|[Primitives-PS](https://1drv.ms/u/s!AprVWp5MreFV8BD4FVMQZ82NZVaS?e=G6jVI0)|
+|[Obama](https://1drv.ms/u/s!AprVWp5MreFV71BzpECy553HM0SJ?e=guAR0m)|[Grumpy Cat](https://1drv.ms/u/s!AprVWp5MreFV7iKC_LtkZWpgfUyh?e=fkejT7)|[Panda](https://1drv.ms/u/s!AprVWp5MreFV8A5D1alAaudftVGO?e=nc2lhw)|[Bridge of Sigh](https://1drv.ms/u/s!AprVWp5MreFV7iRntIJs4LUMxXxP?e=fadiCL)|
+|[Medici fountain](https://1drv.ms/u/s!AprVWp5MreFV7m3dMslb1htPkszu?e=77Vj4Q)|[Temple of heaven](https://1drv.ms/u/s!AprVWp5MreFV70miU-Wc9BWWFQ_G?e=NroiBf)|[Wuzhen](https://1drv.ms/u/s!AprVWp5MreFV70eBLIo_UKKYTTte?e=v8YTJb)|[Buildings](https://1drv.ms/u/s!AprVWp5MreFV7jKGHs_2M3rdJEAe?e=iRWOX5)|
 | | | | |
 
 ## Synthetic Datasets
