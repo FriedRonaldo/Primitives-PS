@@ -100,6 +100,8 @@ Because of the limitation on the file size, the model dose not fully converge (t
 ## Note
 This repository is built upon [DiffAug](https://github.com/mit-han-lab/data-efficient-gans).
 
+The short version of this paper is appeared in Neurips-22-SyntheticData4ML workshop.
+
 ## Citation
 If you find this work useful for your research, please cite our paper:
 ```
