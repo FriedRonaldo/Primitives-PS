@@ -42,7 +42,7 @@ __Hardware__
 ## How to Run (Quick Start)
 
 __Pretraining__
-To change the type of the pretraining dataset, comment out ant in these [lines](https://github.com/FriedRonaldo/Primitives-PS/blob/main/pretrain/noise_dataset.py#L227).
+To change the type of the pretraining dataset, comment out L231 and comment in these [lines](https://github.com/FriedRonaldo/Primitives-PS/blob/main/pretrain/noise_dataset.py#L227).
 
 The file "noise.zip" is not required. (Just running the script will work well.)
 ```
